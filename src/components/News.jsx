@@ -23,8 +23,6 @@ if(isFetching) return 'Loading'
          {category.data.coins.map((e)=>{
           return (<option value={e.name}>{e.name}</option>)
          })}
-          
-          
         </select>}
       {data?.value.map((e)=>{
         const {name,url,image,datePublished,description} = e
